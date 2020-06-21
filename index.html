@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Stripe Checkout Sample</title>
-    <meta name="description" content="A demo of Stripe client-only Checkout" />
+    <meta name="description" content="Midsummer Fundraising Rallye June 2020" />
 
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/normalize.css" />
@@ -15,9 +15,6 @@
   <body>
     <div class="sr-root">
       <div class="sr-main" style="display: flex;">
-      //   <header class="sr-header">
-     //      <div class="sr-header__logo"></div>
-     //    </header>
         <div class="sr-container">
           <section class="container">
             <h1>One-time Donation</h1>
@@ -25,29 +22,42 @@
               data-checkout-mode="payment"
               data-price-id="sku_GU4JYXyvvRb2sX"
             >
-              Donate $5.00 once
+             Share empathy – Donate 20€
             </button>
             <button
               data-checkout-mode="payment"
               data-price-id="sku_GU4KO8nfdg8G2Z"
             >
-              Donate $15.00 once
+              Because it matters – Donate 50€
             </button>
             <button
               data-checkout-mode="payment"
               data-price-id="sku_GU4LB0wBViiYsm"
             >
-              Donate $50.00 once
+              Make a difference – Donate 100€
             </button>
           </section>
           <section class="container">
-            <h1>Recurring Donation</h1>
+            <h1>Donation with Perk</h1>
             <button
               data-checkout-mode="payment"
               data-price-id="sku_GU4LB0wBViiYsm"
             >
-              Donate $50.00 once
+              Hotel night (Scandic or Hyatt) – Donate 200€
             </button>
+            <button
+              data-checkout-mode="payment"
+              data-price-id="sku_GU4LB0wBViiYsm"
+            >
+              Intercontinental air ticket (equal to 24.500 SkyTeam miles) – Donate 500€
+            </button>
+            <button
+              data-checkout-mode="payment"
+              data-price-id="sku_GU4LB0wBViiYsm"
+            >
+              Fly around the world (equal to 180.000 Star Alliance miles) – Donate 1.800€
+            </button>
+
           </section>
         </div>
         <div id="error-message"></div>
