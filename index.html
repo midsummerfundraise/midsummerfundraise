@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Midsummer Fundraising Rallye</title>
-    <meta name="description" content="Midsummer Fundraising Rallye 2020" />
+    <title>Midsummer Fundraising Rallye 2020</title>
+    <meta name="description" content="We give away unique travel perks to raise funds." />
 
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/normalize.css" />
@@ -15,8 +15,9 @@
   <body>
     <div class="sr-root">
       <div class="sr-main" style="display: flex;">
-        
-        
+        <header class="sr-header">
+           <div class="sr-header__logo"></div>
+        </header>  
         <div class="sr-container">
           <section class="container">
             <h1>Direct Donation</h1>
@@ -38,10 +39,8 @@
             >
               Make a difference – Donate 100€
             </button>
-    
-            <BR>
-            <BR>
-              
+          </section>
+          <section class="container">
             <h1>Donation with Perk</h1>
             <button
               data-checkout-mode="payment"
@@ -53,7 +52,7 @@
               data-checkout-mode="payment"
               data-price-id="sku_GU4LB0wBViiYsm"
             >
-              Intercontinental air ticket (SkyTeam) – Donate 600€
+              Intercontinental air ticket (SkyTeam) – Donate 500€
             </button>
             <button
               data-checkout-mode="payment"
@@ -61,11 +60,20 @@
             >
               Fly around the world (StarAlliance) – Donate 1.800€
             </button>
-
           </section>
         </div>
         <div id="error-message"></div>
       </div>
+    </div>
+    <div class="banner">
+      <span>
+        Stripe Checkout on GitHub Pages.
+        <a
+          href="https://github.com/stripe-samples/github-pages-stripe-checkout"
+        >
+          View code on GitHub.
+        </a>
+      </span>
     </div>
 
     <script>
