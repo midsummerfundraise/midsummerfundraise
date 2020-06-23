@@ -357,7 +357,7 @@ pre {
 
 /* Pasha styles – Brand-overrides, can split these out */
 :root {
-  --accent-color: #ed5f74;
+  --accent-color: #525f7f;
   --headline-color: var(--accent-color);
   --logo-image: url("https://raw.githubusercontent.com/midsummerfundraise/midsummerfundraise/gh-pages/IMG_6937.png");
 }
